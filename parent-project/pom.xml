@@ -8,10 +8,6 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>child-project</module>
-    </modules>
-
     <properties>
         <spring.boot.version>3.2.5</spring.boot.version>
         <spring.version>6.3.6</spring.version>
