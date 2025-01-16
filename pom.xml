@@ -10,7 +10,7 @@
     <modules>
         <module>parent-version-two</module>
         <module>parent-project</module>
-        <module>child-project</module>
         <module>lib-project</module>
+        <module>child-project</module>
     </modules>
 </project>
