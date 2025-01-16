@@ -8,6 +8,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>grand-parent</module>
         <module>parent-version-two</module>
         <module>parent-project</module>
         <module>lib-project</module>
