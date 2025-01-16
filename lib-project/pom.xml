@@ -2,28 +2,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>parent-project</artifactId>
+        <version>2.0.0</version>
+    </parent>
 
-    <groupId>com.example</groupId>
-    <version>1.0.0</version>
-
-    <artifactId>child-project</artifactId>
+    <artifactId>lib-project</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>lib-project</artifactId>
-            <version>1.0.0</version>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-web</artifactId>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
