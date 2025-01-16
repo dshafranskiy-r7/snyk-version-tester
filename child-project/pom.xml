@@ -18,16 +18,12 @@
             <artifactId>lib-project</artifactId>
             <version>1.0.0</version>
         </dependency>
-    </dependencies>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-web</artifactId>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
